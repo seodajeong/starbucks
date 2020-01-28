@@ -83,6 +83,11 @@
 	height: auto;
 	margin: 0 auto;
 }
+.blind{
+	font-size: 0;
+	position: absolute;
+	left:-9999px;
+}
 
 
 .billboard .caption a,
@@ -91,7 +96,7 @@
 .social a,
 footer .f_cols a,
 footer .f_cols ul li a,
-.new_drink a.drink_title,
+.new_drink .drink_title,
 header nav ul li a,
 #box #submit{
 	transition:all .2s linear;
@@ -110,7 +115,7 @@ header{
 	z-index: 9999;
 }
 
-header .logo{
+header h1{
 	margin-top: 25px;
 	display: inline-block;
 }
@@ -221,7 +226,7 @@ header nav ul li a:hover{
 	padding-top: 100px;
 }
 
-.video h3{
+.video h2{
 	font-family: 'open_bold', arial;
 	font-weight: bold;
 	font-size: 30px;
@@ -284,7 +289,7 @@ header nav ul li a:hover{
 	overflow: hidden;
 }
 
-.new_drink h3.S_title{
+.new_drink h2.S_title{
 	font-family: 'open_bold', arial;
 	font-weight: bold;
 	font-size: 30px;
@@ -315,7 +320,7 @@ header nav ul li a:hover{
 }
 
 
-.new_drink a.drink_title{
+.new_drink .drink_title{
 	display: inline-block;
 	text-decoration: none;
 	width: 262px;
@@ -330,7 +335,7 @@ header nav ul li a:hover{
 	bottom: 0;
 }
 
-.new_drink .drink:hover a.drink_title{
+.new_drink .drink:hover .drink_title{
 	bottom: 66px;
 }
 

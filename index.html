@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
 	<title>Starbucks</title>
 	<meta charset="utf-8">
-	<meta name="author" content="pixelhint.com">
-	<!-- <meta name="description" content="Minima is a minimal, clean HTML5 multi-purpose template, well-coded & commented code"/> -->
+	<meta name="author" content="hanna">
+	<meta name="description" content="starbuck site, drink, product"/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">		
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
 	<header>
 		<div class="wrapper">
-			<a href="#" class="logo"> <img src="img/logo.png" alt="" title="starbucks"/> </a>
+			<h1>
+				<a href="#"> 					
+					<img src="img/logo.png" alt="starbucks"> 
+				</a>
+			</h1>
 			<nav>
 				<ul>
 					<li><a href="#">COFFEE</a></li>
@@ -30,8 +34,9 @@
 
 
 	<section class="billboard">
+		<h2 class="blind">Starbucks Rewards</h2>
 		<div class="wrapper">
-			<section class="caption">
+			<div class="caption">
 				<div class="text">
 					<p class="cap_title">
 						Introducing the Starbucks<br>Rewards™ Visa® Card
@@ -42,12 +47,12 @@
 					</p>
 				</div>
 				<a href="#">LEARN MORE <i></i></a>
-			</section>
+			</div>
 		</div>
 	</section><!-- End billboard -->
 
 	<section class="video wrapper">
-		<h3>STARBUCKS RESERVE</h3>
+		<h2>STARBUCKS RESERVE</h2>
 		<p>
 			세계 최고급 커피 상위 3% 이내의 원두를 찾기 위한<br>
 			스타벅스의 커피 전문가들의 이야기를 지금 영상으로 확인하세요.
@@ -67,46 +72,43 @@
 	</section>	<!-- End video -->
 
 	<section class="new_drink wrapper">
-		<h3 class="S_title">New Drink</h3>
+		<h2 class="S_title">New Drink</h2>
+		<div class="drink">
+			<a href="#" class="drink_img">				
+				<img src="img/coffee1.jpg" alt="">
+				<div class="drink_title">
+					Nitro Cold Brew <i></i>
+				</div>
+			</a>			
+		</div>
 		<div class="drink">
 			<a href="#" class="drink_img">
-				<img src="img/coffee1.jpg" alt="" title="Nitro Cold Brew"/>
-			</a>
-			<a href="#" class="drink_title">
-				Nitro Cold Brew
-				<i></i>
+				<img src="img/coffee2.jpg" alt="">
+				<div class="drink_title">
+					Vanilla Cream Cold Brew <i></i>
+				</div>
 			</a>
 		</div>
 		<div class="drink">
 			<a href="#" class="drink_img">
-				<img src="img/coffee2.jpg" alt="" title="Vanilla Cream Cold Brew"/>
-			</a>
-			<a href="#" class="drink_title">
-				Vanilla Cream Cold Brew
-				<i></i>
-			</a>
-		</div>
-		<div class="drink">
-			<a href="#" class="drink_img">
-				<img src="img/coffee3.jpg" alt="" title="Cold Brew"/>
-			</a>
-			<a href="#" class="drink_title">
-				Cold Brew
-				<i></i>
+				<img src="img/coffee3.jpg" alt="">
+				<div class="drink_title">
+					Cold Brew <i></i>
+				</div>
 			</a>
 		</div>
 		<div class="drink">
 			<a href="#" class="drink_img">
-				<img src="img/coffee4.jpg" alt="" title="Cold Brew Latte"/>
-			</a>
-			<a href="#" class="drink_title">
-				Cold Brew Latte
-				<i></i>
+				<img src="img/coffee4.jpg" alt="">
+				<div class="drink_title">
+					Cold Brew Latte <i></i>
+				</div>
 			</a>
 		</div>
 	</section><!-- End new_drink -->
 
 	<section class="subscription">
+		<h2 class="blind">스타벅스 가입</h2>
 		<div class="wrapper">
 			<p class="title">스타벅스에 가입하세요.</p>
 			<p class="desc">가입을 통해 리워드 혜택을 즐세요.</p>
@@ -115,26 +117,27 @@
 	</section><!-- End subscription -->
 
 	<section class="social">
-			<a href="http://facebook.com/pixelhint" target="_blank" class="fb"></a>
-			<a href="http://twitter.com/pixelhint" target="_blank" class="t"></a>
-			<a href="http://dribbble.com/pixelhint" target="_blank" class="d"></a>
-			<a href="#" target="_blank" class="g"></a>
+		<h2 class="blind">스타벅스 소셜</h2>
+		<a href="http://facebook.com/pixelhint" target="_blank" class="fb"><span class="blind">facebook</span></a>
+		<a href="http://twitter.com/pixelhint" target="_blank" class="t"><span class="blind">twitter</span></a>
+		<a href="http://dribbble.com/pixelhint" target="_blank" class="d"><span class="blind">dribbble</span></a>
+		<a href="#" target="_blank" class="g"><span class="blind">google blog</span></a>
 	</section><!-- End social -->
-
 
 	<footer>
 		<p>사업자등록번호 201-81-21515 (주)스타벅스커피 코리아 대표이사 이석구 TEL : 02) 3015-1100 / FAX : 02) 3015-1106 개인정보 책임자 : 강기원</p>
 		<p>ⓒ 2015 Starbucks Coffee Company. All Rights Reserved.</p>
 	</footer><!-- End footer -->
 
-
 	<div id="lightbox"></div>
 	<div id="box">
-		<a href="#" class="close"></a>
-		<form method="" action="">
-			<input type="text" id="email" placeholder="Email"/>
-			<input type="text" id="name" placeholder="Name"/>
-			<input type="submit" id="submit" value="Sign In"/>
+		<a href="#" class="close">
+			<span class="blind">닫기</span>
+		</a>
+		<form action="#" method="post">
+			<input type="text" id="email" placeholder="Email" title="email">
+			<input type="text" id="name" placeholder="Name" title="name">
+			<input type="submit" id="submit" value="Sign In">
 			<a href="#">JOIN NOW</a>
 		</form>
 	</div>
